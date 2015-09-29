@@ -9,12 +9,16 @@ text-align:center; /* hack para o IE */
 
 }
 
-
+/*
 #geral
 { margin: 0 auto;
   width: 1024px;
 
 }
+*/
+#geral
+{ margin: 0 auto;
+  width: 1024px;
 
 .monitor{
 	background-image: url(images/monitor.png);
