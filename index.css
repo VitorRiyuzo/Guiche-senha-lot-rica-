@@ -1,0 +1,61 @@
+body{
+margin:0;
+
+padding:0;
+
+background:#cac5bc;
+
+text-align:center; /* hack para o IE */
+
+}
+
+
+#geral
+{ margin: 0 auto;
+  width: 1024px;
+
+}
+
+.monitor{
+	background-image: url(images/monitor.png);
+	top: 100px;
+	background-repeat: no-repeat;
+	width: 463px;
+	height: 364px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+
+
+
+.caixa{
+	background-image: url(images/caixa.png);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	top: 60px;
+	left: 40px;
+	z-index: 7;
+
+}
+
+
+
+.frame_posicao{
+	position: absolute;
+	left: 20px;
+	top: 110px;
+}
+
+.voltar{
+	position: absolute;
+	background-image: url(images/voltar.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 30px;
+	top: 60px;
+	left: 340px;
+}

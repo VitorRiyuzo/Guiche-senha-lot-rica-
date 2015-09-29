@@ -1,0 +1,203 @@
+	#recarga{
+		position: absolute;
+		top: 25px;
+		left: 35px;
+		z-index: 10;
+	}
+
+	#jogo{
+		position: absolute;
+		top: 25px;
+		left: 235px;
+		z-index: 10;
+	}
+
+	#pagamento{
+		position: absolute;
+		top: 145px;
+		left: 35px;
+		z-index: 10;
+	}
+
+	#saque{
+		position: absolute;
+		top: 145px;
+		left: 235px;
+		z-index: 10;
+	}
+	
+	#variado{
+		position: absolute;
+		top: 85px;
+		left: 135px;
+		z-index: 10;
+	}
+	
+	
+
+	.senha_recarga{
+		position: absolute;
+		top: 220px;
+		left: 310px;
+		-webkit-animation:recarga_slide 3s;
+	-moz-animation:recarga_slide 3s;
+	-o-animation:recarga_slide 3s;
+	animation:recarga_slide 3s;
+		display: none;
+		
+	}
+
+	.senha_jogo{
+		position: absolute;
+		top: 220px;
+		left: 310px;
+		-webkit-animation:jogo_slide 3s;
+	-moz-animation:jogo_slide 3s;
+	-o-animation:jogo_slide 3s;
+	animation:jogo_slide 3s;
+		display: none;
+	}
+
+	.senha_pagamento{
+		position: absolute;
+		top: 220px;
+		left: 310px;
+		-webkit-animation:pagamento_slide 3s;
+	-moz-animation:pagamento_slide 3s;
+	-o-animation:pagamento_slide 3s;
+	animation:pagamento_slide 3s;
+		display: none;
+	}
+
+	.senha_saque{
+		position: absolute;
+		top: 220px;
+		left: 310px;
+		-webkit-animation:saque_slide 3s;
+	-moz-animation:saque_slide 3s;
+	-o-animation:saque_slide 3s;
+	animation:saque_slide 3s;
+		display: none;
+	}
+	
+	.senha_variado{
+		position: absolute;
+		top: 220px;
+		left: 310px;
+		-webkit-animation:variado_slide 3s;
+	-moz-animation:variado_slide 3s;
+	-o-animation:variado_slide 3s;
+	animation:variado_slide 3s;
+		display: none;
+	}
+
+	.mascara{
+		position: absolute;
+		width: 119px;
+		height: 217px;
+		top: 3px;
+		left: 292px;
+		background-image: url(images/mascara.png);
+
+		z-index: 7;
+	}
+
+
+#retira{
+	position: absolute;
+	top: 10px;
+	z-index: 20;
+	margin: 0;
+	left: -5px;
+	visibility: hidden;
+}
+
+	@-webkit-keyframes recarga_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+@-moz-keyframes recarga_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@-o-keyframes recarga_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@keyframes recarga_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+
+
+	@-webkit-keyframes jogo_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+@-moz-keyframes jogo_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@-o-keyframes jogo_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@keyframes jogo_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+	
+
+
+@-webkit-keyframes pagamento_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+@-moz-keyframes pagamento_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@-o-keyframes pagamento_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@keyframes pagamento_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+
+
+@-webkit-keyframes saque_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+@-moz-keyframes saque_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@-o-keyframes saque_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@keyframes saque_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+
+@-webkit-keyframes variado_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+@-moz-keyframes variado_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@-o-keyframes variado_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}			
+@keyframes variado_slide{
+0%{top:80px;}
+100%{top:220px;}
+			}
+

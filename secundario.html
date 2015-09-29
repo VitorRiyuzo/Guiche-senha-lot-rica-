@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Caixa</title>
+	<link rel="stylesheet" type="text/css" href="secundario.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="secundario.js"></script>
+</head>
+<body>
+	<img src="images/jogo.png" id="jogo" onclick="ativa_som(); retira_senha()">
+		<img src="images/recarga.png" id="recarga" onclick="ativa_som(); retira_senha()">
+		<img src="images/pagamento.png" id="pagamento" onclick="ativa_som(); retira_senha()">
+		<img src="images/saque.png" id="saque" onclick="ativa_som(); retira_senha()">
+		<img src="images/variado.png" id="variado" onclick="ativa_som(); retira_senha()">
+
+
+		<div class="senhas">
+			<img src="images/n_recarga.png" class="senha_recarga">
+			<img src="images/n_jogo.png" class="senha_jogo">
+			<img src="images/n_pagamento.png" class="senha_pagamento">
+			<img src="images/n_saque.png" class="senha_saque">
+			<img src="images/n_variado.png" class="senha_variado">
+			<div class="mascara"></div>
+		</div>
+		
+		<audio preload id="som_maquina" >
+ 			<source src="maquina.mp3" >
+ 			<source src="maquina.ogg">
+ 		</audio>
+ 			<img src="images/retira.png" id="retira">
+</body>
+</html>
